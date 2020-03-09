@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+    stages {
+        stage('First') {
+                steps {
+                        echo 'Hi, I am Dwalu this is my first pipeline class'
+			
+                }
+        }
+         stage('Second') {
+                steps {
+                        echo 'I live in USA'
+			
+                }
+        }
+      }
+ }
