@@ -13,5 +13,10 @@ pipeline {
 			
                 }
         }
+	stage('Third') {
+		steps {
+			echo 'Hi again, This is Dwalu your pipeline master in marland'
+		}
+	}
       }
  }
