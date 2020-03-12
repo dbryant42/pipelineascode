@@ -17,6 +17,11 @@ pipeline {
 		steps {
 			echo 'Hi again, This is Dwalu your pipeline master in marland'
 		}
+	
+	stage('Forth') {
+		steps {
+			echo 'Good evening, I am your Guy, the Jenkins master in Maryland'
+		}
 	}
       }
  }
